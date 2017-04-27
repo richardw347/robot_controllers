@@ -126,7 +126,7 @@ private:
   JointHandlePtr left_;
   JointHandlePtr right_;
 
-  double goal_, effort_, max_position_, max_effort_;
+  double goal_, effort_, max_position_, min_position_, max_effort_;
   boost::shared_ptr<server_t> server_;
 
   bool use_centering_controller_;
